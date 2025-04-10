@@ -42,14 +42,14 @@ const projectsTimeline = [
     year: "2021",
     projects: [
       {
-        title: "Supply Chain Risk Assessment",
-        description: "Assessed and mitigated cybersecurity risks in global supply chains, providing actionable recommendations for securing the entire ecosystem.",
-        client: "Manufacturing Conglomerate"
+        title: "Work done 1",
+        description: "A long description of the work done.",
+        client: "CLIENT NAME"
       },
       {
-        title: "Cybersecurity Training Program",
-        description: "Designed and delivered a comprehensive cybersecurity awareness and training program for organizations, focusing on human-factor security.",
-        client: "Educational Institutions"
+        title: "Work done 2",
+        description: "Desc of the work done",
+        client: "CLIENT 2"
       }
     ]
   }
