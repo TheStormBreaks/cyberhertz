@@ -1,33 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cyberhertz Consultants</title>
-  <style>
-    body { margin: 0; padding: 0; font-family: sans-serif; }
-    .container { max-width: 1000px; margin: 0 auto; }
-    header { padding: 0.5rem 1rem; }
-    main { padding: 1rem; }
-    .grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
-    .card { padding: 1rem; border: 1px solid #e2e8f0; border-radius: 0.5rem; }
-    footer { padding: 1rem; margin-top: 1rem; }
-  </style>
+  <meta name="description" content="Data Science and Cyber Security | Policy Advocacy and Consultancy">
+  <link rel="stylesheet" href="/src/styles/style.css">
 </head>
+
 <body>
-  <div class="container">
-    <header>
-      <div style="display: flex; justify-content: space-between; align-items: center;">
-        <a href="/" style="text-decoration: none; color: #1e293b; font-size: 0.875rem;">
-          Welcome to <strong>Cyberhertz Consultants</strong>
-        </a>
-        <div>
-          <a href="team.html" style="margin-right: 1rem; text-decoration: none; color: #1e293b; font-size: 0.875rem;">Somya Jha</a>
-          <button id="darkModeToggle" style="background: none; border: none; font-size: 1rem;">🌙</button>
+  <div class="flex min-h-screen flex-col">
+    <header class="w-full px-6 py-4">
+      <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <div class="flex items-center">
+          <a class="text-zinc-800 font-mono text-sm" href="/">
+            SOMYA JHA HELLO WORLD <span class="font-bold">Cyberhertz Consultants</span>
+          </a>
+        </div>
+        <div class="flex items-center">
+          <a class="text-zinc-800 hover:text-zinc-600 font-mono text-sm" href="/blog.html">Somya Jha</a>
+          <button id="darkModeToggle" class="theme-toggle text-xl">🌙</button>
         </div>
       </div>
     </header>
-
 
     <main class="flex-1 flex flex-col items-center p-6 md:p-24">
       <!-- Enhanced image container with perfect centering -->
