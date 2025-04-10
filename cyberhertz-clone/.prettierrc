@@ -1,1 +1,16 @@
-ewogICJzZW1pIjogdHJ1ZSwKICAidGFiV2lkdGgiOiAyLAogICJwcmludFdpZHRoIjogMTAwLAogICJ0cmFpbGluZ0NvbW1hIjogImFsbCIsCiAgInNpbmdsZVF1b3RlIjogZmFsc2UsCiAgImpzeFNpbmdsZVF1b3RlIjogZmFsc2UsCiAgImJyYWNrZXRTcGFjaW5nIjogdHJ1ZSwKICAiYnJhY2tldFNhbWVMaW5lIjogZmFsc2UsCiAgImFycm93UGFyZW5zIjogImFsd2F5cyIsCiAgImVuZE9mTGluZSI6ICJsZiIsCiAgInF1b3RlUHJvcHMiOiAiYXMtbmVlZGVkIiwKICAicGx1Z2lucyI6IFsicHJldHRpZXItcGx1Z2luLXRhaWx3aW5kY3NzIl0sCiAgImVtYmVkZGVkTGFuZ3VhZ2VGb3JtYXR0aW5nIjogImF1dG8iCn0K
+{
+    "semi": true,
+    "tabWidth": 2,
+    "printWidth": 100,
+    "trailingComma": "all",
+    "singleQuote": false,
+    "jsxSingleQuote": false,
+    "bracketSpacing": true,
+    "bracketSameLine": false,
+    "arrowParens": "always",
+    "endOfLine": "lf",
+    "quoteProps": "as-needed",
+    "plugins": ["prettier-plugin-tailwindcss"],
+    "embeddedLanguageFormatting": "auto"
+  }
+  
