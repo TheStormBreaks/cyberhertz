@@ -32,8 +32,5 @@ function setupDarkMode() {
   }
 }
 
-
-
-
 // Initialize dark mode when the DOM is loaded
 document.addEventListener('DOMContentLoaded', setupDarkMode);
