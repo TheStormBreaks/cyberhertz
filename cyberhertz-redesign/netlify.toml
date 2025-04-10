@@ -1,0 +1,33 @@
+[images]
+  remote_images = ["https://ext.same-assets.com/*", "https://images.unsplash.com/*"]
+
+[build]
+  command = "bun run build"
+  publish = "out"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Enable asset optimization
+[build.processing]
+  skip_processing = false
+
+[build.processing.css]
+  bundle = true
+  minify = true
+
+[build.processing.js]
+  bundle = true
+  minify = true
+
+[build.processing.images]
+  compress = true
+
+# Handle SPA routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
