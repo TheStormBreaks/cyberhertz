@@ -28,36 +28,49 @@
       </div>
     </header>
 
-    <main>
-      <div class="grid">
-        <a href="team.html" class="card">
-          <h2 style="margin: 0 0 0.5rem 0; font-size: 1.25rem;">Our Team →</h2>
-          <p style="margin: 0; color: #64748b; font-size: 0.75rem;">Find out about our leaders</p>
+
+    <main class="flex-1 flex flex-col items-center p-6 md:p-24">
+      <!-- Enhanced image container with perfect centering -->
+      <div class="w-full flex flex-col items-center justify-center mb-12 px-4">
+        <img 
+          src="Screenshot_2025-04-10_190625-removebg-preview.png" 
+          alt="CyberHertz Logo - Securing the tomorrow, today"
+          class="w-full max-w-[280px] md:max-w-[380px] lg:max-w-[480px] object-contain"
+        >
+      </div>
+      
+      <div class="w-full max-w-5xl grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+        <!-- Your existing grid items here -->
+        <a class="group p-6 border rounded-lg transition-all hover:border-zinc-300 hover:bg-zinc-50" href="/team.html">
+          <h2 class="mb-3 text-2xl font-semibold">Our Team <span class="inline-block transition-transform group-hover:translate-x-1">→</span></h2>
+          <p class="text-sm text-zinc-500">Find out more about our leaders and their journey.</p>
         </a>
-        
-        <a href="projects.html" class="card">
-          <h2 style="margin: 0 0 0.5rem 0; font-size: 1.25rem;">Projects →</h2>
-          <p style="margin: 0; color: #64748b; font-size: 0.75rem;">Our work in Research and Policy</p>
+
+        <a class="group p-6 border rounded-lg transition-all hover:border-zinc-300 hover:bg-zinc-50" href="/projects.html">
+          <h2 class="mb-3 text-2xl font-semibold">Projects <span class="inline-block transition-transform group-hover:translate-x-1">→</span></h2>
+          <p class="text-sm text-zinc-500">Look at our work and ongoing projects in Research, Consultancy and Policy Advocacy</p>
         </a>
-        
-        <a href="blog.html" class="card">
-          <h2 style="margin: 0 0 0.5rem 0; font-size: 1.25rem;">Blog →</h2>
-          <p style="margin: 0; color: #64748b; font-size: 0.75rem;">Latest updates and social media</p>
+
+        <a class="group p-6 border rounded-lg transition-all hover:border-zinc-300 hover:bg-zinc-50" href="/blog.html">
+          <h2 class="mb-3 text-2xl font-semibold">Blog <span class="inline-block transition-transform group-hover:translate-x-1">→</span></h2>
+          <p class="text-sm text-zinc-500">Check out our latest endeavours and our social media sites</p>
         </a>
-        
-        <a href="contact.html" class="card">
-          <h2 style="margin: 0 0 0.5rem 0; font-size: 1.25rem;">Contact →</h2>
-          <p style="margin: 0; color: #64748b; font-size: 0.75rem;">Get in touch with us</p>
+
+        <a class="group p-6 border rounded-lg transition-all hover:border-zinc-300 hover:bg-zinc-50" href="/contact.html">
+          <h2 class="mb-3 text-2xl font-semibold">Contact Us <span class="inline-block transition-transform group-hover:translate-x-1">→</span></h2>
+          <p class="text-sm text-zinc-500">Our Contact info.</p>
         </a>
       </div>
     </main>
 
-    <footer style="text-align: center; font-size: 0.75rem; color: #64748b;">
-      <p>© 2025 Cyberhertz Consultants. All rights reserved.</p>
+    <footer class="w-full py-6 border-t border-zinc-200 mt-12">
+      <div class="max-w-7xl mx-auto px-6 text-center text-sm text-zinc-500">
+        <p>© 2025 Cyberhertz Consultants. All rights reserved.</p>
+      </div>
     </footer>
   </div>
 
-  <script src="scripts/index.js"></script>
-  <script src="scripts/darkMode.js"></script>
+  <script src="/src/scripts/index.js"></script>
+  <script src="/src/scripts/darkMode.js"></script>
 </body>
 </html>
