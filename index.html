@@ -1,72 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cyberhertz Consultants</title>
-  <meta name="description" content="Data Science and Cyber Security | Policy Advocacy and Consultancy">
-  <link rel="stylesheet" href="/src/styles/style.css">
+  <style>
+    body { margin: 0; padding: 0; font-family: sans-serif; }
+    .container { max-width: 1000px; margin: 0 auto; }
+    header { padding: 0.5rem 1rem; }
+    main { padding: 1rem; }
+    .grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+    .card { padding: 1rem; border: 1px solid #e2e8f0; border-radius: 0.5rem; }
+    footer { padding: 1rem; margin-top: 1rem; }
+  </style>
 </head>
-
 <body>
-  <div class="flex min-h-screen flex-col">
-    <header class="w-full px-6 py-4">
-      <div class="max-w-7xl mx-auto flex justify-between items-center">
-        <div class="flex items-center">
-          <a class="text-zinc-800 font-mono text-sm" href="/">
-            SOMYA JHA HELLO WORLD <span class="font-bold">Cyberhertz Consultants</span>
-          </a>
-        </div>
-        <div class="flex items-center">
-          <a class="text-zinc-800 hover:text-zinc-600 font-mono text-sm" href="/blog.html">Somya Jha</a>
-          <button id="darkModeToggle" class="theme-toggle text-xl">🌙</button>
+  <div class="container">
+    <header>
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <a href="/" style="text-decoration: none; color: #1e293b; font-size: 0.875rem;">
+          Welcome to <strong>Cyberhertz Consultants</strong>
+        </a>
+        <div>
+          <a href="team.html" style="margin-right: 1rem; text-decoration: none; color: #1e293b; font-size: 0.875rem;">Somya Jha</a>
+          <button id="darkModeToggle" style="background: none; border: none; font-size: 1rem;">🌙</button>
         </div>
       </div>
     </header>
 
-    <main class="flex-1 flex flex-col items-center p-6 md:p-24">
-      <!-- Enhanced image container with perfect centering -->
-      <div class="w-full flex flex-col items-center justify-center mb-12 px-4">
-        <img 
-          src="Screenshot_2025-04-10_190625-removebg-preview.png" 
-          alt="CyberHertz Logo - Securing the tomorrow, today"
-          class="w-full max-w-[280px] md:max-w-[380px] lg:max-w-[480px] object-contain"
-        >
-      </div>
-      
-      <div class="w-full max-w-5xl grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-        <!-- Your existing grid items here -->
-        <a class="group p-6 border rounded-lg transition-all hover:border-zinc-300 hover:bg-zinc-50" href="/team.html">
-          <h2 class="mb-3 text-2xl font-semibold">Our Team <span class="inline-block transition-transform group-hover:translate-x-1">→</span></h2>
-          <p class="text-sm text-zinc-500">Find out more about our leaders and their journey.</p>
+    <main>
+      <div class="grid">
+        <a href="team.html" class="card">
+          <h2 style="margin: 0 0 0.5rem 0; font-size: 1.25rem;">Our Team →</h2>
+          <p style="margin: 0; color: #64748b; font-size: 0.75rem;">Find out about our leaders</p>
         </a>
-
-        <a class="group p-6 border rounded-lg transition-all hover:border-zinc-300 hover:bg-zinc-50" href="/projects.html">
-          <h2 class="mb-3 text-2xl font-semibold">Projects <span class="inline-block transition-transform group-hover:translate-x-1">→</span></h2>
-          <p class="text-sm text-zinc-500">Look at our work and ongoing projects in Research, Consultancy and Policy Advocacy</p>
+        
+        <a href="projects.html" class="card">
+          <h2 style="margin: 0 0 0.5rem 0; font-size: 1.25rem;">Projects →</h2>
+          <p style="margin: 0; color: #64748b; font-size: 0.75rem;">Our work in Research and Policy</p>
         </a>
-
-        <a class="group p-6 border rounded-lg transition-all hover:border-zinc-300 hover:bg-zinc-50" href="/blog.html">
-          <h2 class="mb-3 text-2xl font-semibold">Blog <span class="inline-block transition-transform group-hover:translate-x-1">→</span></h2>
-          <p class="text-sm text-zinc-500">Check out our latest endeavours and our social media sites</p>
+        
+        <a href="blog.html" class="card">
+          <h2 style="margin: 0 0 0.5rem 0; font-size: 1.25rem;">Blog →</h2>
+          <p style="margin: 0; color: #64748b; font-size: 0.75rem;">Latest updates and social media</p>
         </a>
-
-        <a class="group p-6 border rounded-lg transition-all hover:border-zinc-300 hover:bg-zinc-50" href="/contact.html">
-          <h2 class="mb-3 text-2xl font-semibold">Contact Us <span class="inline-block transition-transform group-hover:translate-x-1">→</span></h2>
-          <p class="text-sm text-zinc-500">Our Contact info.</p>
+        
+        <a href="contact.html" class="card">
+          <h2 style="margin: 0 0 0.5rem 0; font-size: 1.25rem;">Contact →</h2>
+          <p style="margin: 0; color: #64748b; font-size: 0.75rem;">Get in touch with us</p>
         </a>
       </div>
     </main>
 
-    <footer class="w-full py-6 border-t border-zinc-200 mt-12">
-      <div class="max-w-7xl mx-auto px-6 text-center text-sm text-zinc-500">
-        <p>© 2025 Cyberhertz Consultants. All rights reserved.</p>
-      </div>
+    <footer style="text-align: center; font-size: 0.75rem; color: #64748b;">
+      <p>© 2025 Cyberhertz Consultants. All rights reserved.</p>
     </footer>
   </div>
 
-  <script src="/src/scripts/index.js"></script>
-  <script src="/src/scripts/darkMode.js"></script>
+  <script src="scripts/index.js"></script>
+  <script src="scripts/darkMode.js"></script>
 </body>
 </html>
