@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - Cyberhertz Consultants</title>
+  <meta name="description" content="Data Science and Cyber Security | Policy Advocacy and Consultancy">
+  <link rel="stylesheet" href="/src/styles/style.css">
+</head>
+<body>
+  <div class="flex min-h-screen flex-col">
+    <header class="w-full px-6 py-4">
+      <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <div class="flex items-center">
+          <a class="text-zinc-800 font-mono text-sm" href="/">
+            Welcome to <span class="font-bold">Cyberhertz Consultants</span>
+          </a>
+        </div>
+        <div class="flex items-center">
+          <a class="text-zinc-800 hover:text-zinc-600 font-mono text-sm" href="/team/somya.html">Somya Jha</a>
+          <button id="darkModeToggle" class="theme-toggle text-xl">🌙</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="flex-1 max-w-3xl mx-auto w-full px-6 py-12">
+      <div class="mb-10">
+        <h1 class="text-3xl font-bold">My Blog</h1>
+        <p class="text-zinc-600 mt-2">Thoughts, insights, and explorations in cybersecurity and data science.</p>
+      </div>
+
+      <div class="space-y-8">
+        <a class="block border-b border-zinc-200 pb-8 last:border-0 group" href="/blog/cybersecurity-trends-2024.html">
+          <article>
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+              <p class="text-zinc-500 text-sm">April 5, 2024</p>
+              <p class="text-zinc-500 text-sm">6 min read</p>
+            </div>
+            <h2 class="text-xl font-semibold mb-2 group-hover:text-zinc-700">
+              Cybersecurity Trends to Watch in 2024<span class="inline-block transition-transform group-hover:translate-x-1 ml-1">→</span>
+            </h2>
+            <p class="text-zinc-600">
+              As we navigate through 2024, the cybersecurity landscape continues to evolve rapidly with new threats and technologies emerging.
+            </p>
+          </article>
+        </a>
+
+        <a class="block border-b border-zinc-200 pb-8 last:border-0 group" href="/blog/ai-ethics-data-science.html">
+          <article>
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+              <p class="text-zinc-500 text-sm">March 21, 2024</p>
+              <p class="text-zinc-500 text-sm">8 min read</p>
+            </div>
+            <h2 class="text-xl font-semibold mb-2 group-hover:text-zinc-700">
+              Ethics in AI: Navigating the Data Science Frontier<span class="inline-block transition-transform group-hover:translate-x-1 ml-1">→</span>
+            </h2>
+            <p class="text-zinc-600">
+              With the rapid advancement of artificial intelligence, ethical considerations become increasingly important in data science applications.
+            </p>
+          </article>
+        </a>
+
+        <a class="block border-b border-zinc-200 pb-8 last:border-0 group" href="/blog/policy-tech-governance.html">
+          <article>
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+              <p class="text-zinc-500 text-sm">February 18, 2024</p>
+              <p class="text-zinc-500 text-sm">5 min read</p>
+            </div>
+            <h2 class="text-xl font-semibold mb-2 group-hover:text-zinc-700">
+              Bridging the Gap: Technology Policy and Governance<span class="inline-block transition-transform group-hover:translate-x-1 ml-1">→</span>
+            </h2>
+            <p class="text-zinc-600">
+              Technology governance frameworks are essential for balancing innovation with security and privacy concerns.
+            </p>
+          </article>
+        </a>
+
+        <a class="block border-b border-zinc-200 pb-8 last:border-0 group" href="/blog/security-remote-work.html">
+          <article>
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+              <p class="text-zinc-500 text-sm">January 10, 2024</p>
+              <p class="text-zinc-500 text-sm">7 min read</p>
+            </div>
+            <h2 class="text-xl font-semibold mb-2 group-hover:text-zinc-700">
+              Security Best Practices for Remote Work Environments<span class="inline-block transition-transform group-hover:translate-x-1 ml-1">→</span>
+            </h2>
+            <p class="text-zinc-600">
+              Remote work has become the new normal, but it brings unique security challenges that organizations must address.
+            </p>
+          </article>
+        </a>
+      </div>
+    </main>
+
+    <footer class="w-full py-6 border-t border-zinc-200 mt-12">
+      <div class="max-w-7xl mx-auto px-6 text-center text-sm text-zinc-500">
+        <p>© 2025 Cyberhertz Consultants. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script type="module" src="/src/scripts/blog.js"></script>
+  <script src="/src/scripts/darkMode.js"></script>
+</body>
+</html>
